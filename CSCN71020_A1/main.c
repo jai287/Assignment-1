@@ -47,7 +47,8 @@ void add() {
 	printf("%lf + %lf = %lf\n", num1, num2, result);
 }
 
-void subtract(){
+void subtract()
+{
 	double number1, number2, result;
 	printf ("enter the first case value;");
 	scanf_s ("%lf", &number1);
