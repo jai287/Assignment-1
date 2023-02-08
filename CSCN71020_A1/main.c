@@ -38,13 +38,21 @@ void printOptions() {
 }
 
 void add() {
-	double num1, num2, num3, result;
+	double num1, num2, result;
 	printf("Enter the first value:");
 	scanf_s("%lf", &num1);
 	printf("Enter the second value:");
 	scanf_s("%lf", &num2);
-	printf("Enter the third value:");
-	scanf_s("%lf", &num3);
-	result = num1 + num2+num3;
+	result = num1 + num2;
 	printf("%lf + %lf = %lf\n", num1, num2, result);
+}
+
+void subtract(){
+	double number1, number2, result;
+	printf ("enter the first case value;");
+	scanf_s ("%lf", &number1);
+	printf ("enter second case value;");
+	scanf_s ("%lf", &number2);
+	result = number1 - number2;
+	printf ("lf - %lf= %lf\n", number1 - number2 = result);
 }
